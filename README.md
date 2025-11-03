@@ -1,6 +1,10 @@
-# Desafío del Proyecto
+# Proyecto backend
 
 Esta es una aplicación backend construida con Node.js, Express, TypeORM y TypeScript.
+
+## Contacto
+
+Puedes encontrar el repositorio de este proyecto en GitHub: [https://github.com/username/project-challenge.git](https://github.com/your-username/project-challenge.git)
 
 ## Configuración
 
@@ -54,49 +58,49 @@ npm test
 ## Estructura de Carpetas
 
 ```
-/data/data/com.termux/files/home/project_challenge/
-├───.env
-├───.env-example
-├───.gitignore
-├───agente.md
-├───jest.config.js
-├───jest.setup.js
-├───package-lock.json
-├───package.json
-├───README.md
-├───swagger.config.ts
-├───tsconfig.json
-├───node_modules/...
-└───src/
-    ├───index.ts
-    ├───config/
-    │   └───data-source.ts
-    ├───controllers/
-    │   ├───auth.controller.ts
-    │   ├───pricing.controller.ts
-    │   ├───project.controller.ts
-    │   └───user.controller.ts
-    ├───entities/
-    │   ├───Project.ts
-    │   └───User.ts
-    ├───middlewares/
-    │   ├───auth.middleware.ts
-    │   └───auth.validation.ts
-    ├───routes/
-    │   ├───auth.ts
-    │   ├───index.ts
-    │   ├───pricing.ts
-    │   ├───project.ts
-    │   └───user.routes.ts
-    ├───tests/
-    │   ├───integration/
-    │   │   ├───auth.routes.test.ts
-    │   │   ├───pricing.routes.test.ts
-    │   │   ├───project.routes.test.ts
-    │   │   └───user.routes.test.ts
-    │   └───unit/
-    │       ├───auth.controller.test.ts
-    │       └───user.controller.test.ts
-    └───types/
-        └───express.d.ts
+📁 /data/data/com.termux/files/home/project_challenge/
+├───📄 .env
+├───📄 .env-example
+├───📄 .gitignore
+├───📄 agente.md
+├───📄 jest.config.js
+├───📄 jest.setup.js
+├───📄 package-lock.json
+├───📄 package.json
+├───📄 README.md
+├───📄 swagger.config.ts
+├───📄 tsconfig.json
+├───📁 node_modules/...
+└───📁 src/
+    ├───📄 index.ts
+    ├───📁 config/
+    │   └───📄 data-source.ts
+    ├───📁 controllers/
+    │   ├───📄 auth.controller.ts
+    │   ├───📄 pricing.controller.ts
+    │   ├───📄 project.controller.ts
+    │   └───📄 user.controller.ts
+    ├───📁 entities/
+    │   ├───📄 Project.ts
+    │   └───📄 User.ts
+    ├───📁 middlewares/
+    │   ├───📄 auth.middleware.ts
+    │   └───📄 auth.validation.ts
+    ├───📁 routes/
+    │   ├───📄 auth.ts
+    │   ├───📄 index.ts
+    │   ├───📄 pricing.ts
+    │   ├───📄 project.ts
+    │   └───📄 user.routes.ts
+    ├───📁 tests/
+    │   ├───📁 integration/
+    │   │   ├───📄 auth.routes.test.ts
+    │   │   ├───📄 pricing.routes.test.ts
+    │   │   ├───📄 project.routes.test.ts
+    │   │   └───📄 user.routes.test.ts
+    │   └───📁 unit/
+    │       ├───📄 auth.controller.test.ts
+    │       └───📄 user.controller.test.ts
+    └───📁 types/
+        └───📄 express.d.ts
 ```
