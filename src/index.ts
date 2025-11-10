@@ -5,7 +5,10 @@ import dotenv from "dotenv";
 dotenv.config();
 import { AppDataSource } from "./config/data-source";
 
-import routes from "./routes";
+import router from "./routes/user.routes";
+import routes from "./routes/auth";
+import pricing from "./routes/pricing";
+import project from "./routes/project";
 import swaggerUi from 'swagger-ui-express';
 import swaggerSpec from '../swagger.config';
 
@@ -14,9 +17,11 @@ const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
-app.use("/api/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
-app.use("/api", routes)
-
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.use("/api", routes);
+app.use("/",router);
+app.use("/api/pricing",pricing);
+app.use("/api/projects",project);
 
 AppDataSource.initialize()
   .then(() => {

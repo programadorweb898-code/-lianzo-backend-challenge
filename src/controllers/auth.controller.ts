@@ -3,7 +3,8 @@ import { AppDataSource } from "../config/data-source";
 import { User } from "../entities/User";
 import * as bcrypt from "bcryptjs";
 import * as jwt from "jsonwebtoken";
-
+import dotenv from "dotenv";
+dotenv.config()
 interface AuthenticatedRequest extends Request {
   user?: {
     userId: string;
@@ -75,7 +76,7 @@ export const login = async (req: Request, res: Response) => {
       maxAge: 7 * 24 * 60 * 60 * 1000,
     });
 
-    return res.json({ accessToken });
+    return res.json({ usuario:email,accessToken });
 
   } catch (error) {
     if (error instanceof Error) {
