@@ -62,7 +62,6 @@ npm test
 ├───📄 .env
 ├───📄 .env-example
 ├───📄 .gitignore
-├───📄 agente.md
 ├───📄 jest.config.js
 ├───📄 jest.setup.js
 ├───📄 package-lock.json
@@ -104,3 +103,24 @@ npm test
     └───📁 types/
         └───📄 express.d.ts
 ```
+
+## Uso con Docker
+
+Para ejecutar la aplicación utilizando Docker y Docker Compose, sigue estos pasos:
+
+1.  **Asegúrate de tener Docker y Docker Compose instalados.**
+
+2.  **Construye y levanta los servicios:**
+    ```bash
+    docker-compose up --build
+    ```
+    Esto construirá la imagen de la aplicación y levantará tanto el contenedor de la aplicación como el de la base de datos PostgreSQL.
+
+3.  **Accede a la aplicación:**
+    La aplicación estará disponible en `http://localhost:3000` (o el puerto que hayas configurado en tu `.env`).
+
+4.  **Detener los servicios:**
+    ```bash
+    docker-compose down
+    ```
+    Esto detendrá y eliminará los contenedores, redes y volúmenes creados por `docker-compose up`.
