@@ -47,7 +47,7 @@ Puedes encontrar el repositorio de este proyecto en GitHub: [https://github.com/
 
 ## Documentación de la API
 
-Accede a la documentación de la API (Swagger UI) en `/api/docs` una vez que el servidor esté en funcionamiento.
+Accede a la documentación de la API (Swagger UI) en `/api-docs` una vez que el servidor esté en funcionamiento.
 
 ## Ejecutar Pruebas
 
