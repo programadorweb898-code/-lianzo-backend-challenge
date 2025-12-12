@@ -4,13 +4,13 @@ Esta es una aplicación backend construida con Node.js, Express, TypeORM y TypeS
 
 ## Contacto
 
-Puedes encontrar el repositorio de este proyecto en GitHub: [https://github.com/programadorweb898-code/project-challenge.git](https://github.com/your-username/project-challenge.git)
+Puedes encontrar el repositorio de este proyecto en GitHub: [https://github.com/programadorweb898-code/project-challenge.git](https://github.com/your-username/lianzo-baclend-challenge.git)
 
 ## Configuración
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone https://github.com/programadorweb898-code/project-challenge.git
+    git clone https://github.com/programadorweb898-code/lianzo-backend-challenge.git
     cd project_challenge
     ```
 
