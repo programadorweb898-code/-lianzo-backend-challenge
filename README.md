@@ -10,7 +10,7 @@ Puedes encontrar el repositorio de este proyecto en GitHub: [https://github.com/
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone https://github.com/your-username/project-challenge.git
+    git clone https://github.com/programadorweb898/project-challenge.git
     cd project_challenge
     ```
 
