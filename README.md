@@ -4,7 +4,7 @@ Esta es una aplicación backend construida con Node.js, Express, TypeORM y TypeS
 
 ## Contacto
 
-Puedes encontrar el repositorio de este proyecto en GitHub: [https://github.com/programadorweb898-code/lianzo-backend-challenge.git]
+Puedes encontrar el repositorio de este proyecto en GitHub: [https://github.com/programadorweb898-code/lianzo-backend-challenge]
 
 ## Configuración
 
